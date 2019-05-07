@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-BoldItalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Thin-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-ThinItalic-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Light-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-LightItalic-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Medium-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-MediumItalic-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'permanent_markerregular';
+  src: url('fonts/PermanentMarker-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: rgba(33,33,33,1);
+  padding: 24px 36px 36px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(120,144,156,1);
+}
+
+a:link {
+  color: rgba(207,216,220,.7);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(207,216,220,.5);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(207,216,220,1);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: rgba(96,125,139,1);
+  font-family: "permanent_markerregular", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+#canvas {
+  margin: 0 auto;
+  width: 800px;
+  padding: 24px 36px 36px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+#canvas div {
+  margin-bottom: 110px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#canvas div:first-child {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#canvas div:nth-child(1) {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+#canvas div:last-child {
+  margin-bottom: 0px;
+}
+
+.pic {
+  width: 800px;
+  padding: 0;
+  text-align: center;
+  display: block;
+}
+
+.socialicon {
+  padding: 5px;
+  width: 56px;
+}
